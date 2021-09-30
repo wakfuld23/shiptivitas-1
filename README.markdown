@@ -6,7 +6,6 @@
   <img src="https://s3-ap-southeast-2.amazonaws.com/insidesherpa-assets/yc/workatastartup_logo_orange-c2a27f6374f9395166ee9906e2e0873af835b3c6132ae6aa0543582298567041.svg"></a>
 </p>
 
-
 <p align='center'> 
   <b><a href="#task"> Task Overview </a> </b>
   | 
@@ -16,11 +15,10 @@
   |
   <b><a href="https://www.insidesherpa.com/virtual-internships/prototype/oRMogWRHeewqHzA7u/College%20Students%3A%20Learn%20how%20to%20work%20at%20a%20YC%20startup" target="_blank"> Link to Y Combinator Program </a></b>
 
-           
 </p>
 
+# Introduction
 
-# Introduction 
 <p> 
 <b> College Students: 
   Learn how to work at a Y Combinator startup </b>
@@ -35,11 +33,12 @@ Help update the frontend of a new productivity tool for shipping.
 <b> Aim: </b> Your task is to take the base shipping productivity tool and add in the ability for the new feature, the kanban board, to move shipping requests, to two new lane statuses (in-progress and complete). <b><i> Don't worry about any backend updates for now.</i></b>
 <br><br>
 Acceptance Criteria
+
 <ul>
-<li> In the "Shipping Requests" tab of the application, all tasks should show in the backlog swimlane.</li>
-<li> There should be 3 swimlanes.</li>
-<li> When a user drags a card up, down or into another swimlane, it reorders the card and stays there. (frontend only)</li>
-<li> When a card changes swimlane, it should change color </li>
+<li> :heavy_check_mark: In the "Shipping Requests" tab of the application, all tasks should show in the backlog swimlane.</li>
+<li> :heavy_check_mark: There should be 3 swimlanes.</li>
+<li> :heavy_check_mark: When a user drags a card up, down or into another swimlane, it reorders the card and stays there. (frontend only)</li>
+<li> :heavy_check_mark: When a card changes swimlane, it should change color </li>
 </ul>
 
 <h2 id="installation"> Installation </h2>
@@ -62,15 +61,15 @@ You will also see any lint errors in the console.
 We have loaded some clients data in Board.js.
 Each client is an object of
 interface Client {
-  id: number,
-  name: string,
-  description: string,
-  status: 'backlog' | 'in-progress' | 'complete,
+id: number,
+name: string,
+description: string,
+status: 'backlog' | 'in-progress' | 'complete,
 }
 
 <p id="dragula">
 The Dragula library has been installed, you can use it by importing it on top of each file that you need
-<p> 
+<p>
 
 ### `import Dragula from 'dragula';`
 
@@ -78,3 +77,5 @@ then use it by calling `Dragula` directly.
 
 Visit Dragula repository on github for more information
 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
+
+:heavy_check_mark:
